@@ -24,7 +24,7 @@ export default async (req: NextApiRequest, res: NextApiResponse) => {
           q.Casefold(session.user.email)
         )
       )
-    )
+    );
 
     let customerId = user.data.stripe_customer_id
 
@@ -39,7 +39,7 @@ export default async (req: NextApiRequest, res: NextApiResponse) => {
           q.Ref(q.Collection('users'), user.ref.id),
           {
             data: {
-              strip_customer_id: stripeCustomer.id,
+              stripe_customer_id: stripeCustomer.id,
             }
           }
         )
