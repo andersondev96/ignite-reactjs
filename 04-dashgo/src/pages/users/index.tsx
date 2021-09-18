@@ -1,3 +1,4 @@
+import Link from "next/link";
 import {
   Box,
   Flex,
@@ -37,15 +38,17 @@ export default function UserList() {
           <Flex mb="8" justify="space-between" align="center">
             <Heading size="lg" fontWeight="normal">Usuários</Heading>
 
-            <Button
-              as="a"
-              size="sm"
-              fontSize="sm"
-              colorScheme="pink"
-              leftIcon={<Icon as={RiAddLine} fontSize="20" />}
-            >
-              Criar novo
-            </Button>
+            <Link href="/users/create" passHref>
+              <Button
+                as="a"
+                size="sm"
+                fontSize="sm"
+                colorScheme="pink"
+                leftIcon={<Icon as={RiAddLine} fontSize="20" />}
+              >
+                Criar novo
+              </Button>
+            </Link>
           </Flex>
 
           <Table colorScheme="whiteAlpha">
@@ -97,7 +100,7 @@ export default function UserList() {
                     <Text fontSize="sm" color="gray.300">anderson@gmail.com</Text>
                   </Box>
                 </Td>
-                
+
                 {isWideVersion && <Td>04 de Abril, 2021</Td>}
                 {isWideVersion && (
                   <Td>
@@ -108,7 +111,7 @@ export default function UserList() {
                       colorScheme="purple"
                       leftIcon={<Icon as={RiPencilLine} fontSize="16" />}
                     >
-                     Editar
+                      Editar
                     </Button>
                   </Td>
                 )}
@@ -123,7 +126,7 @@ export default function UserList() {
                     <Text fontSize="sm" color="gray.300">anderson@gmail.com</Text>
                   </Box>
                 </Td>
-                
+
                 {isWideVersion && <Td>04 de Abril, 2021</Td>}
                 {isWideVersion && (
                   <Td>
