@@ -37,7 +37,7 @@ export default function UserList() {
     lg: true,
   })
 
-  async function handlePerfectUser(userId: number) {
+  async function handlePerfectUser(userId: string) {
     await queryClient.prefetchQuery(['user', userId], async () => {
       const response = await api.get(`/users/${userId}`)
 
