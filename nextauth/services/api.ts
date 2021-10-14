@@ -28,8 +28,6 @@ export function setupAPIClient(ctx = undefined ) {
   
         if (!isRefreshing) {
           isRefreshing = true;
-
-          console.log('refresh');
   
           api.post('/refresh', {
             refreshToken,
@@ -70,7 +68,7 @@ export function setupAPIClient(ctx = undefined ) {
   
               resolve(api(originalConfig));
             },
-            onFailed: (err: AxiosError) => {
+            onFailure: (err: AxiosError) => {
               reject(err);
             }
           })

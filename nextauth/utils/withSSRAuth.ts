@@ -41,6 +41,7 @@ export function withSSRAuth<P>(fn: GetServerSideProps<P>, options?: WithSSRAuthO
           }
         }
       }
+    }
 
 
       try {
@@ -58,6 +59,5 @@ export function withSSRAuth<P>(fn: GetServerSideProps<P>, options?: WithSSRAuthO
           }
         }
       }
-    }
   }
 }
