@@ -28,16 +28,18 @@ export default function Home() {
       currency: "BRL",
     });
 
-    const products = data.map((product) => {
-      return {
-        id: product.id,
-        title: product.title,
-        price: product.price,
-        priceFormatted: formatter.format(product.price),
-      };
-    });
+    const products = data.map(
+      (product: { id: any; title: any; price: number | bigint }) => {
+        return {
+          id: product.id,
+          title: product.title,
+          price: product.price,
+          priceFormatted: formatter.format(product.price),
+        };
+      }
+    );
 
-    const totalPrice = data.reduce((total, product) => {
+    const totalPrice = data.reduce((total: any, product: { price: any }) => {
       return total + product.price;
     }, 0);
 
