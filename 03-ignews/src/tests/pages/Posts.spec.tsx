@@ -1,6 +1,5 @@
 import { render, screen } from "@testing-library/react";
 import { mocked } from "ts-jest/utils";
-import { stripe } from "../../services/stripe";
 import Posts, { getStaticProps } from "../../pages/posts";
 import { getPrismicClient } from "../../services/prismic";
 
@@ -15,7 +14,7 @@ const posts = [
 
 jest.mock("../../services/prismic");
 
-describe("Home page", () => {
+describe("Posts page", () => {
   it("renders correctly", () => {
     render(<Posts posts={posts} />);
 
