@@ -1,0 +1,398 @@
+{
+  "continents": [
+    {
+      "slug": "europa",
+      "name": "Europa",
+      "subtitle": "O continente mais antigo",
+      "description": "A Europa é, por convenção, um dos seis continentes do mundo. Compreendendo a península ocidental da Eurásia, a Europa geralmente divide-se da Ásia a leste pela divisória de águas dos montes Urais, o rio Ural, o mar Cáspio, o Cáucaso, e o mar Negro a sudeste",
+      "image_url": "https://images.unsplash.com/photo-1490642914619-7955a3fd483c?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1493&q=80",
+      "bannerImage": "https://images.unsplash.com/photo-1581430872221-d1cfed785922?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1470&q=80",
+      "numberOfCountries": 50,
+      "numberOfLanguages": 24,
+      "amountMostPopularCities": 30,
+      "mostPopularCities": [
+        {
+          "cityName": "Londres",
+          "countryName": "Reino Unido",
+          "countryCode": "GB",
+          "cityImage": "https://images.unsplash.com/photo-1592597957186-61f26ba94e16?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1374&q=80"
+        },
+        {
+          "cityName": "Paris",
+          "countryName": "França",
+          "countryCode": "FR",
+          "cityImage": "https://images.unsplash.com/photo-1502602898657-3e91760cbb34?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1473&q=80"
+        },
+        {
+          "cityName": "Roma",
+          "countryName": "Itália",
+          "countryCode": "IT",
+          "cityImage": "https://images.unsplash.com/photo-1529260830199-42c24126f198?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1476&q=80"
+        },
+        {
+          "cityName": "Praga",
+          "countryName": "República Tcheca",
+          "countryCode": "CZ",
+          "cityImage": "https://images.unsplash.com/photo-1592906209472-a36b1f3782ef?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1470&q=80"
+        },
+        {
+          "cityName": "Amsterdã",
+          "countryName": "Holanda",
+          "countryCode": "NL",
+          "cityImage": "https://images.unsplash.com/photo-1534351590666-13e3e96b5017?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80"
+        },
+        {
+          "cityName": "Barcelona",
+          "countryName": "Espanha",
+          "countryCode": "ES",
+          "cityImage": "https://images.unsplash.com/photo-1539037116277-4db20889f2d4?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1470&q=80"
+        },
+        {
+          "cityName": "Atenas",
+          "countryName": "Grécia",
+          "countryCode": "GR",
+          "cityImage": "https://images.unsplash.com/photo-1590158480223-7fa39a793c36?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1470&q=80"
+        },
+        {
+          "cityName": "Madri",
+          "countryName": "Espanha",
+          "countryCode": "ES",
+          "cityImage": "https://images.unsplash.com/photo-1564565946561-e738711bdbd1?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1470&q=80"
+        }
+      ]
+    },
+    {
+      "slug": "asia",
+      "name": "Ásia",
+      "subtitle": "O maior continente do mundo",
+      "description": "A Ásia é o maior dos continentes terrestres, localizada totalmente no hemisfério oriental, em maior parte no hemisfério setentrional e com uma pequena porção de terras no hemisfério austral. Existem, ao todo, 50 países asiáticos. Além de possuir a maior área territorial (com 44.579.000 km²), abriga também a maior parte da população do planeta, com muitas de suas regiões alcançando as mais elevadas densidades demográficas já registradas. Se o continente asiático corresponde a um terço das terras emersas do planeta, seus habitantes correspondem a 61% da população mundial, com cerca de 4,299 bilhões de pessoas.",
+      "image_url": "https://images.unsplash.com/photo-1517154421773-0529f29ea451?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1470&q=80",
+      "bannerImage": "https://images.unsplash.com/photo-1517309230475-6736d926b979?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1470&q=80",
+      "numberOfCountries": 49,
+      "numberOfLanguages": 51,
+      "amountMostPopularCities": 43,
+      "mostPopularCities": [
+        {
+          "cityName": "Hong Kong",
+          "countryName": "China",
+          "countryCode": "CN",
+          "cityImage": "https://images.unsplash.com/photo-1594973782943-3314fe063f68?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1374&q=80"
+        },
+        {
+          "cityName": "Bangkok",
+          "countryName": "Tailândia",
+          "countryCode": "TH",
+          "cityImage": "https://images.unsplash.com/photo-1508009603885-50cf7c579365?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80"
+        },
+        {
+          "cityName": "Cingapura",
+          "countryName": "Cingapura",
+          "countryCode": "SG",
+          "cityImage": "https://images.unsplash.com/photo-1565967511849-76a60a516170?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1471&q=80"
+        },
+        {
+          "cityName": "Dubai",
+          "countryName": "Emirados Árabes Unidos",
+          "countryCode": "AE",
+          "cityImage": "https://images.unsplash.com/flagged/photo-1559717201-fbb671ff56b7?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1471&q=80"
+        },
+        {
+          "cityName": "Toquio",
+          "countryName": "Japão",
+          "countryCode": "JP",
+          "cityImage": "https://images.unsplash.com/photo-1540959733332-eab4deabeeaf?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1494&q=80"
+        },
+        {
+          "cityName": "Seul",
+          "countryName": "Coreia do Sul",
+          "countryCode": "KR",
+          "cityImage": "https://images.unsplash.com/photo-1597552571860-136a103d5eb3?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1470&q=80"
+        },
+        {
+          "cityName": "Jerusalém",
+          "countryName": "Israel",
+          "countryCode": "IL",
+          "cityImage": "https://images.unsplash.com/photo-1466175743059-5393a020726c?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1470&q=80"
+        },
+        {
+          "cityName": "Bangalore",
+          "countryName": "Índia",
+          "countryCode": "IN",
+          "cityImage": "https://images.unsplash.com/photo-1596796679119-7cf1a9e5448b?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1374&q=80"
+        }
+        
+      ]
+    },
+    {
+      "slug": "africa",
+      "name": "Africa",
+      "subtitle": "O continente mais poupuloso da terra",
+      "description": "A África é um continente localizado na zona intertropical, com maior parte do seu território no Hemisfério Sul. Possui mais de um bilhão de habitantes e 30 milhões de km2 de extensão, sendo, por isso, considerado um dos maiores e mais populosos continentes do mundo. Possui uma grande diversidade étnica, reunindo centenas de grupos que são falantes de dezenas de idiomas distintos. Alvo do processo de neocolonialismo, a exploração dos recursos naturais do continente é ainda praticada por nações desenvolvidas. Como consequência, muitos países africanos, principalmente na África Subsaariana, enfrentam profundos problemas sociais e econômicos, como a fome e a pobreza.",
+      "image_url": "https://images.unsplash.com/photo-1511185307590-3c29c11275ca?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1467&q=80",
+      "bannerImage": "https://images.unsplash.com/photo-1523805009345-7448845a9e53?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1472&q=80",
+      "numberOfCountries": 54,
+      "numberOfLanguages": 2300,
+      "amountMostPopularCities": 50,
+      "mostPopularCities": [
+        {
+          "cityName": "Cairo",
+          "countryName": "Egito",
+          "countryCode": "EG",
+          "cityImage": "https://images.unsplash.com/photo-1601411972811-a77044c3a428?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1470&q=80"
+        },
+        {
+          "cityName": "Johanesburgo",
+          "countryName": "África do Sul",
+          "countryCode": "ZA",
+          "cityImage": "https://images.unsplash.com/photo-1577948000111-9c970dfe3743?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1374&q=80"
+        },
+        {
+          "cityName": "Marrakech",
+          "countryName": "Marrocos",
+          "countryCode": "MA",
+          "cityImage": "https://images.unsplash.com/photo-1545041552-becc2efcccc4?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80"
+        },
+        {
+          "cityName": "Hurghada",
+          "countryName": "Egito",
+          "countryCode": "EG",
+          "cityImage": "https://images.unsplash.com/photo-1562679300-722c0b24717d?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1473&q=80"
+        },
+        {
+          "cityName": "Cape Town",
+          "countryName": "África do Sul",
+          "countryCode": "ZA",
+          "cityImage": "https://images.unsplash.com/photo-1585061528750-3baca2cb6a10?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1470&q=80"
+        },
+        {
+          "cityName": "Nairobi",
+          "countryName": "Quênia",
+          "countryCode": "KE",
+          "cityImage": "https://images.unsplash.com/photo-1543245883-b631737145f0?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1470&q=80"
+        }
+        
+      ]
+    },
+    {
+      "slug": "oceania",
+      "name": "Oceânia",
+      "subtitle": "O continente mais moderno e banhado por ilhas",
+      "description": "A Oceania é um continente localizado a sudeste da Ásia, compreendendo um conjunto de ilhas somado à Austrália, essa última considerada como uma massa continental chamada de “Australásia”. Possui uma área total de 8.480.355 km², onde habitam aproximadamente 38 milhões de pessoas. Por ter sido o último continente a ser colonizado pelos europeus, a Oceania é alcunhada de “novíssimo continente”, em distinção a Europa (o velho mundo) e à América (o novo mundo), segundo a regionalização eurocêntrica da Terra.",
+      "image_url": "https://images.unsplash.com/photo-1622732794483-fc1de4dcb3b1?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1470&q=80",
+      "bannerImage": "https://images.unsplash.com/photo-1589330273594-fade1ee91647?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1470&q=80",
+      "numberOfCountries": 14,
+      "numberOfLanguages": 1000,
+      "amountMostPopularCities": 3,
+      "mostPopularCities": [
+        {
+          "cityName": "Sydney",
+          "countryName": "Australia",
+          "countryCode": "AU",
+          "cityImage": "https://images.unsplash.com/photo-1523428096881-5bd79d043006?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1470&q=80"
+        },
+        {
+          "cityName": "Melbourne",
+          "countryName": "Australia",
+          "countryCode": "AU",
+          "cityImage": "https://images.unsplash.com/photo-1595434971780-79d5c20c5090?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1632&q=80"
+        },
+        {
+          "cityName": "Auckland",
+          "countryName": "Nova Zelândia",
+          "countryCode": "NZ",
+          "cityImage": "https://images.unsplash.com/photo-1507699622108-4be3abd695ad?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1471&q=80"
+        },
+        {
+          "cityName": "Queenstown",
+          "countryName": "Nova Zelândia",
+          "countryCode": "NZ",
+          "cityImage": "https://images.unsplash.com/photo-1529619987053-8d0fd0e42ea9?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1470&q=80"
+        },
+        {
+          "cityName": "Porto Vila",
+          "countryName": "Vanuatu",
+          "countryCode": "VU",
+          "cityImage": "https://images.unsplash.com/photo-1549368245-2dd7d4595a89?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1429&q=80"
+        },
+        {
+          "cityName": "Ilha dos Cangurus",
+          "countryName": "Austrália",
+          "countryCode": "AU",
+          "cityImage": "https://images.unsplash.com/photo-1589685523979-6544ec36b055?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1471&q=80"
+        }
+        
+      ]
+    },
+    {
+      "slug": "america-do-norte",
+      "name": "América do Norte",
+      "subtitle": "O continente das grandes potências mundiais",
+      "description": "A América do Norte está localizada no extremo norte das Américas e é composta por apenas três países: Estados Unidos, Canadá e México, além de territórios de domínios europeus, como a Groelândia (pertencente ao Reino da Dinamarca, com representação no parlamento) e Bermudas (dependência britânica). Os dois primeiros países são os únicos do continente americano que estão inseridos no grupo dos países mais importantes político e economicamente, especialmente os Estados Unidos, que possuem a condição de maior potência mundial; já o México configura-se como um país em desenvolvimento, ou seja, emergente.",
+      "image_url": "https://images.unsplash.com/photo-1570897620586-a24d2d0b85cd?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1471&q=80",
+      "bannerImage": "https://images.unsplash.com/photo-1589871090211-7f2efeec05b6?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80",
+      "numberOfCountries": 3,
+      "numberOfLanguages": 256,
+      "amountMostPopularCities": 2,
+      "mostPopularCities": [
+        {
+          "cityName": "Nova Iorque",
+          "countryName": "Estados Unidos",
+          "countryCode": "US",
+          "cityImage": "https://images.unsplash.com/photo-1523374228107-6e44bd2b524e?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1470&q=80"
+        },
+        {
+          "cityName": "Toronto",
+          "countryName": "Canadá",
+          "countryCode": "CA",
+          "cityImage": "https://images.unsplash.com/photo-1503206557829-9a9979ad1227?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1325&q=80"
+        },
+        {
+          "cityName": "Cidade do México",
+          "countryName": "México",
+          "countryCode": "MX",
+          "cityImage": "https://images.unsplash.com/photo-1518659526054-190340b32735?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=880&q=80"
+        },
+        {
+          "cityName": "Cancun",
+          "countryName": "México",
+          "countryCode": "MX",
+          "cityImage": "https://images.unsplash.com/photo-1552074284-5e88ef1aef18?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80"
+        },
+        {
+          "cityName": "Vancouver",
+          "countryName": "Canadá",
+          "countryCode": "CA",
+          "cityImage": "https://images.unsplash.com/photo-1559511260-66a654ae982a?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1518&q=80"
+        },
+        {
+          "cityName": "Los Angeles",
+          "countryName": "Estados Unidos",
+          "countryCode": "US",
+          "cityImage": "https://images.unsplash.com/photo-1580655653885-65763b2597d0?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1470&q=80"
+        },
+        {
+          "cityName": "São Francisco",
+          "countryName": "Estados Unidos",
+          "countryCode": "US",
+          "cityImage": "https://images.unsplash.com/photo-1521747116042-5a810fda9664?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1470&q=80"
+        },
+        {
+          "cityName": "Las Vegas",
+          "countryName": "Estados Unidos",
+          "countryCode": "US",
+          "cityImage": "https://images.unsplash.com/photo-1581351721010-8cf859cb14a4?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1470&q=80"
+        }
+      ]
+    },
+    {
+      "slug": "america-do-sul",
+      "name": "América do Sul",
+      "subtitle": "O continente mais bonito e diverso",
+      "description": "A América do Sul está localizada em grande parte no hemisfério sul, na zona intertropical ocidental. A América do Sul abrange um território de 18 milhões de quilômetros quadrados e é banhada a leste pelo oceano Atlântico, a oeste pelo oceano Pacífico e ao norte pelo mar das Antilhas, conhecido como do Caribe. O subcontinente abordado é privilegiado em área costeira, ao longo do litoral sul-americano são identificados diversos acidentes geográficos, um exemplo desse tipo de configuração é o Estreito de Margalhães, que liga o oceano Pacífico ao Atlântico, além das Malvinas (arquipélago com mais de duzentas ilhas, localizadas na costa Argentina), Fernando de Noronha (vinte ilhas de origem vulcânica, localizadas na costa nordeste do Brasil); e na costa do Equador, as ilhas Galápagos, instituídas pela ONU (Organização das Nações Unidas) como Patrimônio Natural.",
+      "image_url": "https://images.unsplash.com/photo-1580619305218-8423a7ef79b4?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1474&q=80",
+      "bannerImage": "https://images.unsplash.com/photo-1591468069148-5cc79ed1caaa?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=764&q=80",
+      "numberOfCountries": 456,
+      "numberOfLanguages": 10,
+      "amountMostPopularCities": 12,
+      "mostPopularCities": [
+        {
+          "cityName": "Buenos Aires",
+          "countryName": "Argentina",
+          "countryCode": "AR",
+          "cityImage": "https://images.unsplash.com/photo-1589909634237-717751180967?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1375&q=80"
+        },
+        {
+          "cityName": "Lima",
+          "countryName": "Peru",
+          "countryCode": "PE",
+          "cityImage": "https://images.unsplash.com/photo-1585172162477-d52fa4ad9413?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1633&q=80"
+        },
+        {
+          "cityName": "Rio de Janeiro",
+          "countryName": "Brasil",
+          "countryCode": "BR",
+          "cityImage": "https://images.unsplash.com/photo-1516306580123-e6e52b1b7b5f?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1526&q=80"
+        },
+        {
+          "cityName": "Santiago",
+          "countryName": "Chile",
+          "countryCode": "CL",
+          "cityImage": "https://images.unsplash.com/photo-1598997718764-c5ebf34e7e07?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1374&q=80"
+        },
+        {
+          "cityName": "São Paulo",
+          "countryName": "Brasil",
+          "countryCode": "BR",
+          "cityImage": "https://images.unsplash.com/photo-1470160710819-b3bd5ec85c66?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1470&q=80"
+        },
+        {
+          "cityName": "La paz",
+          "countryName": "Bolivia",
+          "countryCode": "BO",
+          "cityImage": "https://images.unsplash.com/photo-1514907988683-d173529692b9?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1470&q=80"
+        },
+        {
+          "cityName": "Salvador",
+          "countryName": "Bahia",
+          "countryCode": "BR",
+          "cityImage": "https://images.unsplash.com/photo-1533241818630-edad657eb3da?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1374&q=80"
+        },
+        {
+          "cityName": "Manaus",
+          "countryName": "Amazonas",
+          "countryCode": "BR",
+          "cityImage": "https://images.unsplash.com/photo-1604522564556-12cd5f53c390?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1374&q=80"
+        }
+      ]
+    },
+    {
+      "slug": "america-central",
+      "name": "América Central",
+      "subtitle": "O continente com o maior relevo e ilhas",
+      "description": "A América Central é uma região continental limitada ao norte pela Península de Iucatã, no México, e ao sul pela Colômbia. A região é dividida em América Central continental, que compreende uma faixa de terras emersas em uma posição entre a América do Norte e a América do Sul (Belize, Guatemala, Honduras, El Salvador, Nicarágua, Costa Rica e Panamá); e insular, formada por um grupo de ilhas localizadas no Mar do Caribe (Cuba, Jamaica, Haiti, República Dominicana e Porto Rico). Um dos principais argumentos usados para designar a América Central como um continente é que a mesma está situada em uma placa tectônica diferente da placa norte-americana: a placa caribeana. Grande parte do continente é marcada por intensa atividade vulcânica, além de uma quantidade significativa de terremotos.",
+      "image_url": "https://images.unsplash.com/photo-1600207882264-605cd561ce4a?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1474&q=80",
+      "bannerImage": "https://images.unsplash.com/photo-1590080080607-728233c0284d?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=735&q=80",
+      "numberOfCountries": 49,
+      "numberOfLanguages": 326,
+      "amountMostPopularCities": 6,
+      "mostPopularCities": [
+        {
+          "cityName": "Cidade do Panamá",
+          "countryName": "Panamá",
+          "countryCode": "PA",
+          "cityImage": "https://images.unsplash.com/photo-1540610410855-b4c8877b761c?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1648&q=80"
+        },
+        {
+          "cityName": "Puerto Viejo de Talamanca",
+          "countryName": "Costa Rica",
+          "countryCode": "CR",
+          "cityImage": "https://images.unsplash.com/photo-1456592886398-266363b94749?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1470&q=80"
+        },
+        {
+          "cityName": "São Salvador",
+          "countryName": "El Salvador",
+          "countryCode": "SV",
+          "cityImage": "https://images.unsplash.com/photo-1601846537100-cf482a10985a?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1374&q=80"
+        },
+        {
+          "cityName": "Cidade da Guatemala",
+          "countryName": "Guatemala",
+          "countryCode": "GT",
+          "cityImage": "https://images.unsplash.com/photo-1561429137-38135953567b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1471&q=80"
+        },
+        {
+          "cityName": "Bocas del Toro",
+          "countryName": "Panamá",
+          "countryCode": "PA",
+          "cityImage": "https://images.unsplash.com/photo-1593881135370-702114a3448d?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1374&q=80"
+        },
+        {
+          "cityName": "El Petén",
+          "countryName": "Guatemala",
+          "countryCode": "GT",
+          "cityImage": "https://images.unsplash.com/photo-1508035460735-91088c495500?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1374&q=80"
+        }
+      ]
+    }
+  ]
+}

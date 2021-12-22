@@ -1,0 +1,120 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 5rem;
+}
+
+.banner {
+  width: 100%;
+  margin: 0 auto;
+
+  img {
+    display: block;
+    width: 100%;
+    max-height: 25rem;
+    object-fit: cover;
+  }
+}
+
+.post {
+  max-width: 45.625rem;
+  margin: 0 auto;
+  padding: 0 0.625rem;
+  margin-top: 5rem;
+
+  h1 {
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    font-size: 3rem;
+    line-height: 3.625rem;
+    letter-spacing: 0.031rem;
+  }
+
+  section {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 1.5rem;
+
+    span {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      font-size: 0.875rem;
+      color: var(--info);
+      margin-right: 1.5rem;
+
+      svg {
+        margin-right: 0.5rem;
+      }
+    }
+  }
+
+  .editPostDate {
+    margin-top: 1rem;
+    font-size: 0.875rem;
+    color: var(--info);
+    font-weight: 400;
+    font-style: italic;
+  }
+
+  .content {
+    display: flex;
+    flex-direction: column;
+    margin-top: 4rem;
+
+    strong {
+      font-family: 'Inter', sans-serif;
+      font-weight: 700;
+      font-size: 2.125rem;
+      line-height: 2.4rem;
+      margin-top: 1.5rem;
+    }
+
+
+    div {
+      margin-top: 2rem;
+      font-family: 'Inter', sans-serif;
+      font-weight: 400;
+      font-size: 1.125rem;
+      color: var(--info);
+      line-height: 2rem;
+    }
+  }
+
+  .divider {
+    height: 0.063rem;
+    width: 100%;
+    opacity: 0.1;
+    border: 1px solid #D7D7D7;
+
+    margin-top: 3.75rem;
+  }
+
+  .postNav {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+
+    margin-top: 3rem;
+
+    p {
+      font-size: 1.125rem;
+    }
+
+    a {
+      font-size: 1rem;
+      font-weight: 600;
+      color: var(--highlight);
+    }
+
+    .previousPost {
+      max-width: 50%;
+    }
+
+    .nextPost {
+      max-width: 50%;
+      text-align: end;
+    }
+  }
+}

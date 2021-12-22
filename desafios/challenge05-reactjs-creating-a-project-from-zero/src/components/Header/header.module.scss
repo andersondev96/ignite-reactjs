@@ -1,0 +1,13 @@
+.headerContainer {
+  display: flex;
+  max-width: 45.625rem;
+  height: 6.563rem;
+  margin: 0 auto;
+  align-items: center;
+  background: var(--background);
+  padding: 0 0.625rem;
+
+  img {
+    height: 1.625rem;
+  }
+}
