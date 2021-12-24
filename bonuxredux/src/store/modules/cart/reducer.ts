@@ -2,13 +2,29 @@ import { Reducer } from "redux";
 import { ICartState } from "./types";
 
 const INITIAL_STATE: ICartState = {
-    items: []
+    items: [],
 };
 
-const cart: Reducer<ICartState> = (state, action) => {
-    console.log(state, action);
+const cart: Reducer<ICartState> = (state = INITIAL_STATE, action) => {
+    switch (action.type) {
+        case "ADD_PRODUCT_TO_CART": {
+            const { product } = action.payload;
 
-    return INITIAL_STATE;
-}
+            return {
+                ...state,
+                items: [
+                    ...state.items,
+                    {
+                        product,
+                        quantity: 1,
+                    },
+                ],
+            };
+        }
+        default: {
+            return state;
+        }
+    }
+};
 
 export default cart;
