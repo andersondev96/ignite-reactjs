@@ -1,8 +1,8 @@
-import { IProduct } from "./types";
+import { ActionTypes, IProduct } from "./types";
 
 export function addProductsToCartRequest(product: IProduct) {
     return {
-        type: 'ADD_PRODUCT_TO_CART_REQUEST',
+        type: ActionTypes.addProductsToCartRequest,
         payload: {
             product,
         }
@@ -11,7 +11,7 @@ export function addProductsToCartRequest(product: IProduct) {
 
 export function addProductsToCartSuccess(product: IProduct) {
     return {
-        type: 'ADD_PRODUCT_TO_CART_SUCCESS',
+        type: ActionTypes.addProductsToCartSuccesss,
         payload: {
             product,
         }
@@ -20,7 +20,7 @@ export function addProductsToCartSuccess(product: IProduct) {
 
 export function addProductsToCartFailure(productId: number) {
     return {
-        type: 'ADD_PRODUCT_TO_CART_FAILURE',
+        type: ActionTypes.addProductsToCartFailure,
         payload: {
             productId,
         }
