@@ -3,7 +3,7 @@ import { useSelector } from "react-redux";
 import { IState } from "../store";
 import { ICartItem } from "../store/modules/cart/types";
 
-// import { Container } from './styles';
+import "./styles.css";
 
 const Cart: React.FC = () => {
   const cart = useSelector<IState, ICartItem[]>((state) => state.cart.items);
@@ -22,9 +22,19 @@ const Cart: React.FC = () => {
         {cart.map((item) => (
           <tr key={item.product.id}>
             <td>{item.product.title}</td>
-            <td>{item.product.price}</td>
+            <td>
+              {item.product.price.toLocaleString("pt-br", {
+                style: "currency",
+                currency: "BRL",
+              })}
+            </td>
             <td>{item.quantity}</td>
-            <td>{(item.product.price * item.quantity).toFixed(2)}</td>
+            <td>
+              {(item.product.price * item.quantity).toLocaleString("pt-br", {
+                style: "currency",
+                currency: "BRL",
+              })}
+            </td>
           </tr>
         ))}
       </tbody>
